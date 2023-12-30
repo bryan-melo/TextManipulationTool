@@ -14,11 +14,12 @@ def concatenate_strings(str1, str2):
 
         If both strings have no content, it will return None.
     """
-    if str1 and str2:
-        return str1 + str2
-    elif str1 and not str2:
-        return str1
-    elif str2 and not str1:
-        return str2
-    else:
-        return ''
+
+    if str1 and str2:                   # if both strings are not empty
+        return str1 + str2              # return: concatenated string
+    elif str1 or str2:                  # If one string is non-empty and the other is empty
+        return str1 if str1 else str2   # return: the non-empty string
+    else:                               # if both strings are empty
+        return ''                       # return: empty string
+
+
