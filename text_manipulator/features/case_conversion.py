@@ -1,6 +1,6 @@
 def all_uppercase_letters(text):
     """
-    Converts all letters in str1 string to uppercase letters.
+    Converts all letters in text string to uppercase letters.
 
     :param:
         str text: Input string.
@@ -17,7 +17,7 @@ def all_uppercase_letters(text):
 
 def all_lowercase_letters(text):
     """
-    Converts all letters in str1 string to lowercase letters.
+    Converts all letters in text string to lowercase letters.
 
     :param:
         str text: Input string.
