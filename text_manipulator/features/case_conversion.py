@@ -1,51 +1,51 @@
-def all_uppercase_letters(str1):
+def all_uppercase_letters(text):
     """
     Converts all letters in str1 string to uppercase letters.
 
     :param:
-        str str1: Input string.
+        str text: Input string.
 
     :return:
         str: Converted string to uppercase letters.
         None: Returns None if input string is empty.
     """
-    if str1:
-        return str1.upper()
+    if text:
+        return text.upper()
     else:
         return None
 
 
-def all_lowercase_letters(str1):
+def all_lowercase_letters(text):
     """
     Converts all letters in str1 string to lowercase letters.
 
     :param:
-        str str1: Input string.
+        str text: Input string.
 
     :return:
         str: Converted string to lowercase letters.
         None: Returns None if input string is empty
 
     """
-    if str1:
-        return str1.lower()
+    if text:
+        return text.lower()
     else:
         return None
 
 
-def capitalisation(str1):
+def capitalisation(text):
     """
     Converts the first letter of the input string to uppercase, acting as auto-capitalization
     for words at the beginning of a sentence, names, titles, etc.
 
     :param:
-        str str1: Input string.
+        str text: Input string.
 
     :return:
         str: Converted string with the first letter in uppercase.
         None: Returns None if the input string is empty.
     """
-    if str1:
-        return str1.capitalize()
+    if text:
+        return text.capitalize()
     else:
         return None
